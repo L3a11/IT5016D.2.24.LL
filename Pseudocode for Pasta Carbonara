@@ -1,0 +1,33 @@
+# Pasta Carbonara recipe
+# Lea Lucanova
+# 28.2.2024
+
+
+def pasta_carbonara():
+    ingredients = ['spaghetti', 'bacon', 'egg yolks', 'parmesan cheese', 'olive oil', 'salt', 'black pepper']
+
+    print("Ingredients:")
+    for ingredient in ingredients:
+        print("- " + ingredient)
+
+    # Step 1: Boil spaghetti in salted water until al dente
+    print("\nStep 1: Boil spaghetti in salted water until al dente")
+
+    # Step 2: Fry bacon in a pan until crispy
+    print("Step 2: Fry bacon in a pan until crispy")
+
+    # Step 3: Mix egg yolks, parmesan cheese, salt, and black pepper in a bowl
+    print("Step 3: Mix egg yolks, parmesan cheese, salt, and black pepper in a bowl")
+
+    # Step 4: Add spaghetti to pan with bacon
+    print("Step 4: Add spaghetti into pan with bacon")
+
+    # Step 5: Remove pan from heat and add egg mixture, stirring constantly
+    print("Step 5: Remove pan from heat and add egg mixture, stirring constantly")
+
+    # Step 6: Serve hot
+    print("Step 6: Serve hot. Bon Appetit!")
+
+
+# Call the function to make Pasta Carbonara
+pasta_carbonara()
